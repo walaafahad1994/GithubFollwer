@@ -11,9 +11,9 @@ class SearchVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .systemPink
-        //do this and that jflw
-        // Do any additional setup after loading the view.dfd
+       let imageView = UIImageView()
+        let usernameTextFiled = GFtextField()
+        let getFollwerButton = GFbutton(backgroundColor: .systemGreen, title: "Get Follwers")
     }
     
 
