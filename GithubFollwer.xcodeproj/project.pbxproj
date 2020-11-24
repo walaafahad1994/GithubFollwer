@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		3ADD7C0F2559900A0062A912 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADD7C0E2559900A0062A912 /* AppDelegate.swift */; };
 		3ADD7C112559900A0062A912 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADD7C102559900A0062A912 /* SceneDelegate.swift */; };
-		3ADD7C132559900A0062A912 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADD7C122559900A0062A912 /* ViewController.swift */; };
-		3ADD7C162559900A0062A912 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ADD7C142559900A0062A912 /* Main.storyboard */; };
 		3ADD7C182559900D0062A912 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3ADD7C172559900D0062A912 /* Assets.xcassets */; };
 		3ADD7C1B2559900D0062A912 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ADD7C192559900D0062A912 /* LaunchScreen.storyboard */; };
 		3ADD7C262559900E0062A912 /* GithubFollwerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADD7C252559900E0062A912 /* GithubFollwerTests.swift */; };
 		3ADD7C312559900E0062A912 /* GithubFollwerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADD7C302559900E0062A912 /* GithubFollwerUITests.swift */; };
+		3ADD7C4B2559B81E0062A912 /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADD7C4A2559B81E0062A912 /* SearchVC.swift */; };
+		3ADD7C502559B8310062A912 /* faviortiesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADD7C4F2559B8310062A912 /* faviortiesVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,9 +37,7 @@
 /* Begin PBXFileReference section */
 		3ADD7C0B2559900A0062A912 /* GithubFollwer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GithubFollwer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3ADD7C0E2559900A0062A912 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3ADD7C102559900A0062A912 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3ADD7C122559900A0062A912 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3ADD7C152559900A0062A912 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3ADD7C102559900A0062A912 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; wrapsLines = 0; };
 		3ADD7C172559900D0062A912 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3ADD7C1A2559900D0062A912 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3ADD7C1C2559900D0062A912 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +47,8 @@
 		3ADD7C2C2559900E0062A912 /* GithubFollwerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GithubFollwerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3ADD7C302559900E0062A912 /* GithubFollwerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubFollwerUITests.swift; sourceTree = "<group>"; };
 		3ADD7C322559900E0062A912 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3ADD7C4A2559B81E0062A912 /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
+		3ADD7C4F2559B8310062A912 /* faviortiesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = faviortiesVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +101,11 @@
 			children = (
 				3ADD7C0E2559900A0062A912 /* AppDelegate.swift */,
 				3ADD7C102559900A0062A912 /* SceneDelegate.swift */,
-				3ADD7C122559900A0062A912 /* ViewController.swift */,
-				3ADD7C142559900A0062A912 /* Main.storyboard */,
 				3ADD7C172559900D0062A912 /* Assets.xcassets */,
 				3ADD7C192559900D0062A912 /* LaunchScreen.storyboard */,
 				3ADD7C1C2559900D0062A912 /* Info.plist */,
+				3ADD7C4A2559B81E0062A912 /* SearchVC.swift */,
+				3ADD7C4F2559B8310062A912 /* faviortiesVC.swift */,
 			);
 			path = GithubFollwer;
 			sourceTree = "<group>";
@@ -233,7 +233,6 @@
 			files = (
 				3ADD7C1B2559900D0062A912 /* LaunchScreen.storyboard in Resources */,
 				3ADD7C182559900D0062A912 /* Assets.xcassets in Resources */,
-				3ADD7C162559900A0062A912 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,8 +257,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3ADD7C132559900A0062A912 /* ViewController.swift in Sources */,
+				3ADD7C4B2559B81E0062A912 /* SearchVC.swift in Sources */,
 				3ADD7C0F2559900A0062A912 /* AppDelegate.swift in Sources */,
+				3ADD7C502559B8310062A912 /* faviortiesVC.swift in Sources */,
 				3ADD7C112559900A0062A912 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,14 +296,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3ADD7C142559900A0062A912 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3ADD7C152559900A0062A912 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3ADD7C192559900D0062A912 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -445,7 +437,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.walaa.HackingWithSwift.GithubFollwer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -463,7 +455,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.walaa.HackingWithSwift.GithubFollwer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
