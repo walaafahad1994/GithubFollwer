@@ -18,6 +18,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window?.windowScene = windoScene
         window?.rootViewController = createTabBar()
         window?.makeKeyAndVisible()
+        configurationNavgitonBar()
     }
     
     func  createsearchVC() -> UINavigationController {
@@ -39,6 +40,10 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         UITabBar.appearance().tintColor = .systemGreen
         tabBar.viewControllers = [createsearchVC() , createfavioritesVC()]
     return tabBar
+    }
+    func configurationNavgitonBar()
+    {
+        UINavigationBar.appearance().tintColor = .systemGreen
     }
     func sceneDidDisconnect(_ scene: UIScene) {
         // Called as the scene is being released by the system.

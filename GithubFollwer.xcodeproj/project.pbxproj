@@ -17,6 +17,7 @@
 		3ADD7C502559B8310062A912 /* faviortiesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADD7C4F2559B8310062A912 /* faviortiesVC.swift */; };
 		3AEFB4FA256D1F390084CCE7 /* GFbutton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEFB4F9256D1F390084CCE7 /* GFbutton.swift */; };
 		3AEFB4FF256D5EEE0084CCE7 /* GFtextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEFB4FE256D5EEE0084CCE7 /* GFtextField.swift */; };
+		3AEFB514256F96900084CCE7 /* follwerListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEFB513256F96900084CCE7 /* follwerListVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		3ADD7C4F2559B8310062A912 /* faviortiesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = faviortiesVC.swift; sourceTree = "<group>"; };
 		3AEFB4F9256D1F390084CCE7 /* GFbutton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFbutton.swift; sourceTree = "<group>"; };
 		3AEFB4FE256D5EEE0084CCE7 /* GFtextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFtextField.swift; sourceTree = "<group>"; };
+		3AEFB513256F96900084CCE7 /* follwerListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = follwerListVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				3ADD7C4F2559B8310062A912 /* faviortiesVC.swift */,
 				3AEFB4F9256D1F390084CCE7 /* GFbutton.swift */,
 				3AEFB4FE256D5EEE0084CCE7 /* GFtextField.swift */,
+				3AEFB513256F96900084CCE7 /* follwerListVC.swift */,
 			);
 			path = GithubFollwer;
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3AEFB4FF256D5EEE0084CCE7 /* GFtextField.swift in Sources */,
+				3AEFB514256F96900084CCE7 /* follwerListVC.swift in Sources */,
 				3ADD7C4B2559B81E0062A912 /* SearchVC.swift in Sources */,
 				3ADD7C0F2559900A0062A912 /* AppDelegate.swift in Sources */,
 				3ADD7C502559B8310062A912 /* faviortiesVC.swift in Sources */,
